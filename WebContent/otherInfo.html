@@ -1,0 +1,1095 @@
+<!DOCTYPE HTML>
+<!--
+	Author : Geetha Paul
+-->
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Travel Booth</title>
+
+  	<!-- Facebook and Twitter integration 
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />-->
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Themify Icons-->
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body>		
+	<div class="tb-loader"></div>	
+	<div id="page">
+
+<!-- MENU PART -->
+	<nav class="tb-nav" role="navigation">
+		<div class="tb-nav-container">
+			
+			<div class="row">
+				<div class="col-sm-4 col-xs-12">
+					<div id="tb-logo"><a href="index.html">Travel Booth <em>.</em></a></div>
+				</div>
+				<div class="col-xs-8 text-right menu-1">
+					<ul>
+						<li class="has-dropdown">
+						<a href="index.html">Home</a>
+							<ul class="dropdown">
+								<li><a href="index.html#tb-footer">About Us</a></li>
+								<li><a href="index.html#tb-whyMe">Why TravelBooth?</a></li>
+								<li><a href="index.html#tb-testimonial">Testimonials</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="index.html#tb-deals">Hot Deals</a></li>
+						<li><a href="index.html#tb-services">Services</a></li>						
+						<!-- <li class="has-dropdown">
+							<a href="index.html#tb-services">Services</a>
+							<ul class="dropdown">
+								<li><a href="index.html#tb-services">International Air ticket</a></li>
+								<li><a href="index.html#tb-services">Domestic air ticket</a></li>
+								<li><a href="index.html#tb-services">Tours</a></li>
+							</ul>
+						</li> -->
+						<li><a href="index.html#tb-corporate">Corporate Travel</a></li>
+						<li class="has-dropdown">
+							<a href="otherInfo.html">Other Informations</a>
+							<ul class="dropdown">
+								<li><a href="otherInfo.html#tb-header">Baggage Informations</a></li>
+								<li><a href="otherInfo.html#tb-airlinesContacts">Airline Contact Numbers</a></li>
+								<li><a href="otherInfo.html#tb-travelGuides">Travel Guides</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>	
+				</div>
+			</div>
+			
+		</div>
+	</nav>
+	<!-- END OF NAVIGATION MENU -->
+	
+	<header id="tb-header" role="banner" style="background-image: url(images/otherinfo/baggage_1.jpg); background-size:100% 100%;">
+		<div class="tb-container">
+			<div class="row">
+				<div class="col-md-12 baggage-header animate-box" data-animate-effect="fadeInUp">
+					<h3>Baggage Information</h3>					
+		         </div>
+			</div>
+		</div>
+	</header>
+	<div id="tb-baggage">
+		<div class="tb-container">
+			<div class="baggage-wrapper">
+			<p>Please click on an airline to be directed to their baggage policy. This information is provided for informational purposes only.</p>
+			<div>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_A');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-border-red">A</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_B');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">B</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_C');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">C</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_D');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">D</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_E');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">E</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_F');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">F</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_G');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">G</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_H');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">H</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_I');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">I</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_J');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">J</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_K');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">K</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_L');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">L</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_M');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">M</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_N');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">N</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_O');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">O</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_P');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">P</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_Q');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Q</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_R');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">R</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_S');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">S</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_T');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">T</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_U');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">U</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_V');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">V</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_W');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">W</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_X');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">X</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_Y');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Y</div></a>
+		    <a href="javascript:void(0)" onclick="openCity(event, 'Bag_Z');"><div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Z</div></a>
+		  </div>
+			
+			<div id="Bag_A" class="w3-container city">
+			    <table class="table baggage-table" >
+			    <tr>
+			    	<td><a target="_blank" href="//www.airindia.com/baggage.htm"><img alt="" src="images/logos/airIndia_logo.png"></a></td>
+			        <td><a target="_blank" href="//www.airasia.com/in/en/baggage-info"><img alt="" src="images/logos/airAsia_logo.png"></a></td>
+			        <td><a target="_blank" href="//world.aeromexico.com/en/travel-with-aeromexico/baggage/?site=us"><img alt="" src="images/logos/aeroMexico_logo.jpg"></a></td>
+			        <td><a target="_blank" href="ww1.aerolineas.com.ar/arg/main.asp?idSitio=US&idPagina=52&idIdioma=en"><img alt="" src="images/logos/AR_logo.png"></a></td>
+			        <td><a target="_blank" href="//www.alaskaair.com/as/www2/help/faqs/CheckedBaggage.asp"><img alt="" src="images/logos/alaska_logo.png"></a></td>
+				</tr>
+				<tr>
+				 	<td><a target="_blank" href="//www.airberlin.com/site/flug_gepaeck_luggage.php?LANG=eng"><img alt="" src="images/logos/airBerlin_logo.png"></a></td>
+				    <td><a target="_blank" href="//www.aircanada.com/en/travelinfo/airport/baggage/index.html"><img alt="" src="images/logos/airCanada_logo.png"></a></td>
+				    <td><a target="_blank" href="//www.airfrance.us/US/en/common/guidevoyageur/pratique/pratique_bagage.htm"><img alt="" src="images/logos/airFrance_logo.png"></a></td>
+				    <td><a target="_blank" href="//www.aa.com/i18n/travelInformation/baggage/main.jsp?anchorEvent=false&from=Nav"><img alt="" src="images/logos/aa_logo.png"></a></td>
+				    <td><a target="_blank" href="//www.alitalia.com/en_us/fly-alitalia/baggage.html"><img alt="" src="images/logos/Alitalia_logo.png"></a></td>
+				</tr>					
+				<tr>
+					<td><a target="_blank" href="//www.airchina.us/US/GB/info/checked-baggage/"><img alt="" src="images/logos/airChina_logo.png"></a></td>
+				</tr>
+			    </table>
+			 </div>
+			 <div id="Bag_B" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			    <tr>
+				        
+				        
+				</tr>
+			    </table>
+			 </div>
+			 <div id="Bag_C" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+			     	<td><a target="_blank" href="//www.china-airlines.com/us/en/fly/prepare-for-the-fly/baggage/index"><img alt="" src="images/logos/Chinaairlines_logo.jpg"></a></td>
+				</tr>
+			    </table>
+			 </div>
+			 <div id="Bag_D" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_E" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				   <td><a target="_blank" href="//www.evaair.com/en-us/managing-your-trip/baggage-information/allowances/"><img alt="" src="images/logos/EVA_air_logo.jpg"></a></td>     
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_F" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				  	<td><a target="_blank" href="//www.finnair.com/finnaircom/wps/portal/matkustusohjeet/en_US"><img alt="" src="images/logos/Finnair_logo.jpg"></a></td>      
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_G" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				    <td><a target="_blank" href="//airzena.com/?l=E&m=4&sm=12"><img alt="" src="images/logos/georgian_logo.png"></a></td>
+				    <td><a target="_blank" href="//www.greatlakesav.com/"><img alt="" src="images/logos/GreatLakesAir_logo.png"></a></td>			        
+				            
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_H" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_I" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_J" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				  	<td><a target="_blank" href="//www.jetairways.com/EN/IN/TravelInformation/Baggage/baggage-allowances.aspx"><img alt="" src="images/logos/jetAirways_logo.jpg"></a></td>      
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_K" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_L" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_M" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_N" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_O" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_P" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_Q" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_R" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_S" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_T" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				    <td><a target="_blank" href="www.transstates.net/"><img alt="" src="images/logos/TransStates_logo.png"></a></td>    
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_U" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_V" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_W" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_X" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_Y" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			 <div id="Bag_Z" class="w3-container city" style="display:none">
+			    <table class="table baggage-table" >
+			     <tr>
+				        
+				 </tr>
+			    </table>
+			 </div>
+			<!-- <table class="table baggage-table" >
+				      <tr>
+				        <td><a target="_blank" href="//www.jetairways.com/EN/IN/TravelInformation/Baggage/baggage-allowances.aspx"><img alt="" src="images/logos/jetAirways_logo.jpg"></a></td>
+				        <td><a target="_blank" href="//airzena.com/?l=E&m=4&sm=12"><img alt="" src="images/logos/georgian_logo.png"></a></td>
+				        <td><a target="_blank" href="//www.aa.com/i18n/travelInformation/baggage/main.jsp?anchorEvent=false&from=Nav"><img alt="" src="images/logos/aa_logo.png"></a></td>
+				        <td><a target="_blank" href="//www.airberlin.com/site/flug_gepaeck_luggage.php?LANG=eng"><img alt="" src="images/logos/airBerlin_logo.png"></a></td>
+				        <td><a target="_blank" href="//www.aircanada.com/en/travelinfo/airport/baggage/index.html"><img alt="" src="images/logos/airCanada_logo.png"></a></td>
+				        <td><a target="_blank" href="//www.airfrance.us/US/en/common/guidevoyageur/pratique/pratique_bagage.htm"><img alt="" src="images/logos/airFrance_logo.png"></a></td>
+				      </tr>
+				      <tr>
+				        <td><a target="_blank" href="//www.airindia.com/baggage.htm"><img alt="" src="images/logos/airIndia_logo.png"></a></td>
+				        <td><a target="_blank" href="//www.airasia.com/in/en/baggage-info"><img alt="" src="images/logos/airAsia_logo.png"></a></td>
+				        <td><a target="_blank" href="//world.aeromexico.com/en/travel-with-aeromexico/baggage/?site=us"><img alt="" src="images/logos/aeroMexico_logo.jpg"></a></td>
+				        <td><a target="_blank" href="ww1.aerolineas.com.ar/arg/main.asp?idSitio=US&idPagina=52&idIdioma=en"><img alt="" src="images/logos/AR_logo.png"></a></td>
+				        <td><a target="_blank" href="//www.alaskaair.com/as/www2/help/faqs/CheckedBaggage.asp"><img alt="" src="images/logos/alaska_logo.png"></a></td>
+				        <td><a target="_blank" href="www.transstates.net/"><img alt="" src="images/logos/TransStates_logo.png"></a></td>
+				      </tr>
+				      <tr>
+				        <td><a target="_blank" href="//www.finnair.com/finnaircom/wps/portal/matkustusohjeet/en_US"><img alt="" src="images/logos/Finnair_logo.jpg"></a></td>
+				        <td><a target="_blank" href="//www.alitalia.com/en_us/fly-alitalia/baggage.html"><img alt="" src="images/logos/Alitalia_logo.png"></a></td>
+				        <td><a target="_blank" href="//www.greatlakesav.com/"><img alt="" src="images/logos/GreatLakesAir_logo.png"></a></td>
+				        <td><a target="_blank" href="//www.evaair.com/en-us/managing-your-trip/baggage-information/allowances/"><img alt="" src="images/logos/EVA_air_logo.jpg"></a></td>
+				        <td><a target="_blank" href="//www.airchina.us/US/GB/info/checked-baggage/"><img alt="" src="images/logos/airChina_logo.png"></a></td>
+				        <td><a target="_blank" href="//www.china-airlines.com/us/en/fly/prepare-for-the-fly/baggage/index"><img alt="" src="images/logos/Chinaairlines_logo.jpg"></a></td>
+				      </tr>
+				      <tr>
+				      	<td><a target="_blank" href="//www.cathaypacific.com/cx/en_US/travel-information/baggage.html">CX<br>CATHAY</a></td>
+				      	<td><a target="_blank" href="//www.csair.com/en/tourguide/luggage_service/carryon_luggage/index.shtml">CZ<br>CHINASOUTHERN</a></td>
+				      	<td><a target="_blank" href="//www.delta.com/content/www/en_US/traveling-with-us/baggage.html">DL<br>DELTA</a></td>
+				      	<td><a target="_blank" href="//www.aerlingus.com/travel-information/baggage-information/">EI<br>AER LINGUS LIMITED</a></td>
+				      	<td><a target="_blank" href="//www.emirates.com/english/plan_book/essential_information/baggages/baggages.aspx">EK<br>EMIRATES</a></td>
+				      	<td><a target="_blank" href="//www.ethiopianairlines.com/AA/EN/information/baggage">ET<br>ETHIOPIAN</a></td>
+				      </tr>
+				      <tr>
+				      	<td><a target="_blank" href="//www.etihadairways.com/SITES/ETIHAD/GLOBAL/EN/EXPERIENCEETIHAD/ATTHEAIRPORT/Pages/BaggageInformation.aspx">EY<br>Etihad Air</a></td>
+				      	<td><a target="_blank" href="//www.flyfrontier.com/travel-information/baggage/">F9<br>FRONTIER AIRLINES</a></td>
+				      	<td><a target="_blank" href="//www.icelandair.us/information/baggage-information/">FI<br>ICELANDAIR</a></td>
+				      	<td><a target="_blank" href="//www.hawaiianairlines.com/legal/list-of-all-fees">HA<br>HAWAIIAN</a></td>
+				      	<td><a target="_blank" href="//www.airseychelles.com/en/before-you-fly/baggage-information">HM<br>AIR SEYCHELLES</a></td>
+				      	<td><a target="_blank" href="//www.hongkongairlines.com/cms/">HX<br>HONG KONG AIR</a></td>
+				      </tr>
+				      <tr>
+				      	<td><a target="_blank" href="//press.jal.co.jp/en/release/201103/001764.html">JL<br>JAPAN AIRLINES</a></td>
+				      	<td><a target="_blank" href="//www.koreanair.com/global/en/traveling/baggage-services.html">KE<br>KOREAN AIR</a></td>
+				      	<td><a target="_blank" href="//www.klm.com/travel/nl_en/prepare_for_travel/baggage/all_about/index.htm">KL<br>KLM ROYAL DUTCH</a></td>
+				      	<td><a target="_blank" href="//www.airmalta.com/information/baggage/checked-baggage">KM<br>AIR MALTA</a></td>
+				      	<td><a target="_blank" href="//www.kenya-airways.com/prepare-for-travel/baggage-information/en/">KQ<br>KENYA AIRWAYS</a></td>
+				      	<td><a target="_blank" href="//www.kuwaitairways.com/en/is/baggaage-service">KU<br>KUWAIT AIRWAYS</a></td>
+				      </tr>
+				      <tr>
+				      	<td><a target="_blank" href="//www.lufthansa.com/us/en/Baggage-overview">LH<br>LUFTHANSA</a></td>
+				      	<td><a target="_blank" href="//www.swiss.com/us/en/prepare/baggage/free-checked-baggage">LX<br>SWISS</a></td>
+				      	<td><a target="_blank" href="//www.malaysiaairlines.com/hq/en/plan/baggage.html">MH<br> MALAYSIA</a></td>
+				      	<td><a target="_blank" href="//www.silkair.com/en_UK/sg/travel-info/baggage/baggage-allowances/">MI<br>SILKAIR</a></td>
+				      	<td><a target="_blank" href="//www.airmauritius.com/checkedbaggage.htm">MK<br>AIR MAURITIUS</a></td>
+				      	<td><a target="_blank" href="//www.egyptair.com/en/fly/baggage/Pages/default.aspx">MS<br>EGYPTAIR</a></td>
+				      </tr>
+				      <tr>
+				      	<td><a target="_blank" href="//us.ceair.com/en/content/information/baggage/">MU<br>CHINA EASTERN AIRLINES</a></td>
+				      	<td><a target="_blank" href="//www.ana.co.jp/wws/us/e/asw_common/guide/baggage.html">NH<br>ALL NIPPON AIRWAYS CO. LT</a></td>
+				      	<td><a target="_blank" href="//www.airnewzealand.co.nz/checked-in-baggage/">NZ<br>AIR NEW ZEALAND</a></td>
+				      	<td><a target="_blank" href="//www.austrian.com/Info/Flying/Baggage.aspx?sc_lang=en&cc=US">OS<br>AUSTRIAN AIRLINES</a></td>
+				      	<td><a target="_blank" href="//jp.flyasiana.com/C/en/homepage.do?menuId=003006002001000&menuType=CMS">OZ<br>ASIANA AIRLINES</a></td>
+				      	<td><a target="_blank" href="//www.piac.com.pk/PIA_Experience/pia-experience_baggagesvc.asp">PK<br>PAKISTAN AIR</a></td>
+				      </tr>
+				      <tr>
+				      	<td><a target="_blank" href=""><br></a></td>
+				      	<td><a target="_blank" href=""><br></a></td>
+				      	<td><a target="_blank" href=""><br></a></td>
+				      	<td><a target="_blank" href=""><br></a></td>
+				      	<td><a target="_blank" href=""><br></a></td>
+				      	<td><a target="_blank" href=""><br></a></td>
+				      </tr>
+				      <tr>
+				      	<td><a target="_blank" href=""><br></a></td>
+				      	<td><a target="_blank" href=""><br></a></td>
+				      	<td><a target="_blank" href=""><br></a></td>
+				      	<td><a target="_blank" href=""><br></a></td>
+				      	<td><a target="_blank" href=""><br></a></td>
+				      	<td><a target="_blank" href=""><br></a></td>
+				      </tr>
+				  	</table> -->
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+	 							<!-- AIRLINE CONTACT NUMBERS AND WEBSITES -->
+	 
+	 
+	<div id="tb-airlinesContacts">
+		<div class="tb-container">
+			<div class="row">
+				<div class="col-md-12">					
+					<h3>Airline Toll-Free Numbers and Websites</h3>						
+				</div>
+			</div>
+			<article class="panel panel-default">
+				<div class="alphabets">
+					<div class="panel-heading">
+						<div class="col-xs-12">
+							<ul>
+					        	<li><a href="#a">A</a></li>
+					            <li><a href="#b">B</a></li>
+					            <li><a href="#c">C</a></li>
+					            <li><a href="#d">D</a></li>
+					            <li><a href="#e">E</a></li>
+					            <li><a href="#f">F</a></li>
+					            <li><a href="#g">G</a></li>
+					            <li><a href="#h">H</a></li>
+					            <li><a href="#i">I</a></li>
+					            <li><a href="#j">J</a></li>
+					            <li><a href="#k">K</a></li>
+					            <li><a href="#l">L</a></li>
+					            <li><a href="#m">M</a></li>
+					            <li><a href="#n">N</a></li>
+					            <li><a href="#o">O</a></li>
+					            <li><a href="#p">P</a></li>
+					            <li><a href="#q">Q</a></li>
+					            <li><a href="#r">R</a></li>
+					            <li><a href="#s">S</a></li>
+					            <li><a href="#t">T</a></li>
+					            <li><a href="#u">U</a></li>
+					            <li><a href="#v">V</a></li>
+					            <li><a href="#w">W</a></li>
+					            <li><a href="javascript:void(0)">X</a></li>
+					            <li><a href="javascript:void(0)">Y</a></li>
+					            <li><a href="javascript:void(0)">Z</a></li>
+		        			</ul>
+	        			</div>
+        			</div>
+        		</div>
+        		<div class="panel-body">
+					<div class="col-xs-12"><a id="a"></a><span class="intro col-xs-12 no-padding">A</span></div>
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6">        	
+	             		<div class="col-xs-12 no-padding">
+						 <ul>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.activeaero.com/" rel="nofollow">Active Aero</a></span><span class="col-md-4 col-xs-6 airnumber">800-872-5387</span></li>	
+			                <!--li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.africansafariclub.com/" rel="nofollow">African Safari Airways</a></span><span class="col-md-4 col-xs-6 airnumber">845-345-0014</span></li-->		
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.aerlingus.ie/" rel="nofollow">Aer Lingus</a></span><span class="col-md-4 col-xs-6 airnumber">800-223-6537</span></li>			
+			                <!--li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.aerocalifornia.de/" rel="nofollow">Aero California</a></span><span class="col-md-4 col-xs-6 airnumber">800-237-6225</span></li -->		
+			                <!-- li class="col-xs-12"><span class="col-xs-6 no-padding">Aeroejecutivos</span><span class="col-md-4 col-xs-6 airnumber">212-793-0668</span></li-->			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.aeroflot.ru/" rel="nofollow">Aeroflot</a></span><span class="col-md-4 col-xs-6 airnumber">495-223-5555</span></li>			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.aerolineas.com.ar/" rel="nofollow">Aerolineas Argentinas</a></span><span class="col-md-4 col-xs-6 airnumber">800-333-0276</span></li>			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.aeromexico.com/" rel="nofollow">Aeromexico</a></span><span class="col-md-4 col-xs-6 airnumber">800-237-6639</span></li>		
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.aeropostal.com/" rel="nofollow">Aeropostal</a></span><span class="col-md-4 col-xs-6 airnumber">888-912-8466</span></li>			
+			                <!--li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.air-aruba.com/" rel="nofollow">Air Aruba</a></span><span class="col-md-4 col-xs-6 airnumber">800-882-7822</span></li -->			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airberlin.com/" rel="nofollow">Air Berlin</a></span><span class="col-md-4 col-xs-6 airnumber">805-737-800</span></li>			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airbotswana.co.bw/" rel="nofollow">Air Botswana</a></span><span class="col-md-4 col-xs-6 airnumber">267-395-2812</span></li>			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.aircalin.com/" rel="nofollow">Air Caledonia</a></span><span class="col-md-4 col-xs-6 airnumber">800-677-4277</span></li>			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.aircanada.ca/" rel="nofollow">Air Canada</a></span><span class="col-md-4 col-xs-6 airnumber">888-247-2262</span></li>		
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.aireuropa.com/" rel="nofollow">Air Europa</a></span><span class="col-md-4 col-xs-6 airnumber">800-238-7672</span></li>			
+			                <!--li class="col-xs-12"><span class="col-xs-6 no-padding">Air Fiji</span><span class="col-md-4 col-xs-6 airnumber">800-347-6324</span></li -->			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airfrance.com/" rel="nofollow">Air France</a></span><span class="col-md-4 col-xs-6 airnumber">800-237-2747</span></li>			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airindia.com/" rel="nofollow">Air India</a></span><span class="col-md-4 col-xs-6 airnumber">800-223-7776</span></li>			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airjamaica.com/" rel="nofollow">Air Jamaica</a></span><span class="col-md-4 col-xs-6 airnumber">800-523-5585</span></li>			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airkenya.com/" rel="nofollow">Air Kenya</a></span><span class="col-md-4 col-xs-6 airnumber">542-060-5745</span></li>			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airmadagascar.com/" rel="nofollow">Air Madagascar</a></span><span class="col-md-4 col-xs-6 airnumber">120-223-5880</span></li>			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airmalta.com/" rel="nofollow">Air Malta</a></span><span class="col-md-4 col-xs-6 airnumber">800-756-2582</span></li>		
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airmauritius.com/" rel="nofollow">Air Mauritius</a></span><span class="col-md-4 col-xs-6 airnumber">212-279-6601</span></li>			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airnamibia.com.na./" rel="nofollow">Air Namibia</a></span><span class="col-md-4 col-xs-6 airnumber"> 646-467-9671</span></li>			
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airnewzealand.com/" rel="nofollow">Air New Zealand</a></span><span class="col-md-4 col-xs-6 airnumber">800-223-9494</span></li>
+			             </ul>				
+	             		</div>            
+					</div>
+			
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+            			<div class="col-xs-12 no-padding">
+			            <ul>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.flyairnorth.com/" rel="nofollow">Air North Airline</a></span><span class="col-md-5 col-xs-6 airnumber">800-661-0407 ext 302</span></li>    
+			            	
+			                <!-- li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.flytap.com/" rel="nofollow">Air Portugal</a></span><span class="col-md-5 col-xs-6 airnumber">707-205-700 </span></li-->
+			                <!--li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.jetlite.com/" rel="nofollow">Air Sahara</a></span><span class="col-md-5 col-xs-6 airnumber">800-22-3020 </span></li -->
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airsunshine.com/" rel="nofollow">Air Sunshine</a></span><span class="col-md-5 col-xs-6 airnumber">800-327-8900</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airtahitinui-usa.com/" rel="nofollow">Air Tahiti Nui</a></span><span class="col-md-5 col-xs-6 airnumber">877-824-4846</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airtransat.ca/" rel="nofollow">Air Transat</a></span><span class="col-md-5 col-xs-6 airnumber">800-388-5836</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airtran.com/" rel="nofollow">AirTran Airways</a></span><span class="col-md-5 col-xs-6 airnumber">800-247-8726</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airvegas.com/" rel="nofollow">Air Vegas</a></span><span class="col-md-5 col-xs-6 airnumber">800-940-2550</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airzimbabwe.com/" rel="nofollow">Air Zimbabwe</a></span><span class="col-md-5 col-xs-6 airnumber">800-742-3006</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.alaskaair.com/" rel="nofollow">Alaska Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">800-654-5669</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.allegiantair.com/" rel="nofollow">Allegiant Air</a></span><span class="col-md-5 col-xs-6 airnumber">702-505-8888</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.alohaaircargo.com/" rel="nofollow">Aloha Air</a></span><span class="col-md-5 col-xs-6 airnumber">800-367-5250</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.ambassadair.com/" rel="nofollow">Ambassadair</a></span><span class="col-md-5 col-xs-6 airnumber">800-225-9919</span></li>
+			                <!-- li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.usairways.com/" rel="nofollow">America West Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">800-428-4322</span></li -->
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.aa.com/" rel="nofollow">American Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">800-433-7300</span></li>
+			                <!-- li class="col-xs-12"><span class="col-xs-6 no-padding">American Trans Air</span><span class="col-md-5 col-xs-6 airnumber">800-435-9282</span></li -->
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.amerijet.com/" rel="nofollow">Amerijet International Inc</a></span><span class="col-md-5 col-xs-6 airnumber">800-927-6059</span></li>
+			                <!-- li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.azxpress.com/" rel="nofollow">Arizona Express Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">866-435-9872</span></li-->
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.flyasiana.com/" rel="nofollow">Asiana Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">800-227-4262</span></li>
+			                <!-- li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.atkinair.com/" rel="nofollow">Atkin Air</a></span><span class="col-md-5 col-xs-6 airnumber">800-924-2471</span></li -->
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.atlanticair.com/" rel="nofollow">Atlantic Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">800-879-0000</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.atlasair.com/" rel="nofollow">Atlas Air</a></span><span class="col-md-5 col-xs-6 airnumber">914-701-8050</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.aua.com/" rel="nofollow">Austrian Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">800-843-0002</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.taca.com/" rel="nofollow">Aviateca</a></span><span class="col-md-5 col-xs-6 airnumber">800-400 TACA</span></li>
+						</ul>
+            			</div>
+        			</div>
+	
+					<div class="col-xs-12"><a id="b"></a><span class="intro col-xs-12">B</span></div>
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6">        	
+			             <div class="col-xs-12 no-padding">
+						 <ul>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.bahamasair.com/" rel="nofollow">Bahamas Air</a></span><span class="col-md-4 col-xs-6 airnumber">800-222-4262</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.bangkokair.com" rel="nofollow">Bangkok Airways</a></span><span class="col-md-4 col-xs-6 airnumber">+66-2270-6699</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.bemidjiaviation.com/" rel="nofollow">Bemidji Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">800-332-7133</span> </li> 		
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.britishairways.com" rel="nofollow">British Airways</a></span><span class="col-md-4 col-xs-6 airnumber">800-247-9297</span></li>
+							</ul>
+			             </div>
+					</div>			 
+            		<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6">        	
+			             <div class="col-xs-12 no-padding">
+						 <ul>
+			            	<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.flybmi.com" rel="nofollow">BMI Regional</a></span><span class="col-md-5 col-xs-6 airnumber">800-788-0555</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.brusselsairlines.com/" rel="nofollow">Brussels Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">866-308-2230</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.air.bg/" rel="nofollow">Bulgaria Air</a></span><span class="col-md-5 col-xs-6 airnumber">359-2402-0461</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.caribbean-airlines.com/" rel="nofollow">BWIA International</a></span><span class="col-md-5 col-xs-6 airnumber">800-538-2942</span></li>
+						</ul>				
+			            </div>             
+        			</div>
+		
+					<div class="col-xs-12"><a id="c"></a><span class="intro col-xs-12">C</span></div>
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6">        	
+			            <div class="col-xs-12 no-padding">
+						<ul>
+			                <!--li class="col-xs-12"><span class="col-xs-6 no-padding">CanJet Airlines</span><span class="col-md-4 col-xs-6 airnumber">888-201-2289</span></li -->	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.flycapeair.com/" rel="nofollow">Cape Air</a></span><span class="col-md-4 col-xs-6 airnumber">800-352-0714</span></li>	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.cathaypacific.com" rel="nofollow">Cathay Pacific Airways</a></span><span class="col-md-4 col-xs-6 airnumber">800-233-2742</span></li>		
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.caymanairways.com/" rel="nofollow">Cayman Airways</a></span><span class="col-md-4 col-xs-6 airnumber"> 800-343-6565</span></li>
+			                <!-- li class="col-xs-12"><span class="col-xs-6 no-padding">Chalk´s Ocean Airways</span><span class="col-md-4 col-xs-6 airnumber">877-924-2557</span></li -->
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.china-airlines.com/" rel="nofollow">China Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">800-227-5118</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.csair.com/" rel="nofollow">China Southern</a></span><span class="col-md-4 col-xs-6 airnumber">86-209-5539</span></li> 
+						</ul>				
+			            </div>
+			 		</div>
+            		<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6">        	
+             			<div class="col-xs-12 no-padding">
+						 <ul>
+			            	<!--li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.colganair.com/" rel="nofollow">Colgan Air</a></span><span class="col-md-5 col-xs-6 airnumber">703-368-8880</span></li -->	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.comair.co.za/" rel="nofollow">Comair</a></span><span class="col-md-5 col-xs-6 airnumber">800-727-2550</span></li>	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="https://www.condor.com/eu/index.jsp" rel="nofollow">Condor</a></span><span class="col-md-5 col-xs-6 airnumber">800-364-1667</span></li>		
+			                <!-- li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.continental.com/" rel="nofollow">Continental Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">800-523-3273</span></li -->
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.copaair.com" rel="nofollow">Copa Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">800-FLY COPA</span></li>
+			                <!-- li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.corporateexpressair.com" rel="nofollow">Corporate Express Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">800-661-8151</span></li -->
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.croatiaairlines.com/" rel="nofollow">Croatia Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">851-487-2727 </span></li> 
+						</ul>				
+            			</div>           
+        			</div>
+	
+					<div class="col-xs-12"><a id="d"></a><span class="intro col-xs-12">D</span></div>
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6">        	
+			             <div class="col-xs-12 no-padding">
+						 <ul>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.delta.com/" rel="nofollow">Delta Air Lines </a></span><span class="col-md-4 col-xs-6 airnumber">800-221-1212</span></li>                
+						</ul>				
+			            </div>
+					</div>
+			        <div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6">        	
+			            <div class="col-xs-12 no-padding">
+						<ul>
+			            	<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.dhl-usa.com/" rel="nofollow">DHL WorldWide Express</a></span><span class="col-md-5 col-xs-6 airnumber">800-225-5345 </span></li>	                
+						</ul>				
+			            </div>           
+        			</div>
+		
+					<div class="col-xs-12"><a id="e"></a><span class="intro col-xs-12">E</span></div>
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6">   	
+			            <div class="col-xs-12 no-padding">
+						<ul>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.eastcoastflight.com/" rel="nofollow">East Coast Flight Services</a></span><span class="col-md-4 col-xs-6 airnumber">800-554-0550</span></li>	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.egyptair.com/" rel="nofollow">Egyptair</a></span><span class="col-md-4 col-xs-6 airnumber">                  800-334-6787</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.elal.co.il/" rel="nofollow">El Al Israel Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">	      800-223-6700</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.emirates.com/" rel="nofollow">Emirates Air</a></span><span class="col-md-4 col-xs-6 airnumber">              800-777-3999</span></li>
+						</ul>
+						</div>
+			        </div>
+            
+            		<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6">        	
+             			<div class="col-xs-12 no-padding">
+						<ul>
+			            	<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.estonian-air.ee/" rel="nofollow">Estonian Air</a></span><span class="col-md-5 col-xs-6 airnumber">	          372-640-1163</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.ethiopianairlines.com/" rel="nofollow">Ethiopian Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">	800-445-2733</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.evaair.com/" rel="nofollow">EVA Airways</a></span><span class="col-md-5 col-xs-6 airnumber">       800-695-1188</span></li>
+			                <!-- li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.evergreenaviation.com/" rel="nofollow">Evergreen International</a></span><span class="col-md-5 col-xs-6 airnumber"> 866-434-4818</span></li -->
+						</ul>
+            			</div>            
+        			</div>
+		
+					<div class="col-xs-12"><a id="f"></a><span class="intro col-xs-12">F</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+						<div class="col-xs-12 no-padding">
+						<ul>		
+			             	<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.airpacific.com/" rel="nofollow">Fiji Airways</a></span><span class="col-md-5 col-xs-6 airnumber">800-227-4446</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.finnair.com/" rel="nofollow">Finnair</a></span><span class="col-md-4 col-xs-6 airnumber">800-950-5000</span></li>	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.firstair.ca/" rel="nofollow">First Air</a></span><span class="col-md-4 col-xs-6 airnumber">  800-267-1247</span></li>
+						</ul>
+			            </div>
+			 		</div>
+            
+            		<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+		    			<div class="col-xs-12 no-padding">
+			 			<ul>
+            				<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.frontierairlines.com/" rel="nofollow">Frontier Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">800-432-1359</span></li> 
+						</ul>
+            			</div>            
+           			</div>
+		
+		
+					<div class="col-xs-12"><a id="g"></a><span class="intro col-xs-12">G</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+						<div class="col-xs-12 no-padding">
+						 <ul>        	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.garuda-indonesia.com/" rel="nofollow">Garuda Indonesia</a></span><span class="col-md-4 col-xs-6 airnumber">130-036-5330</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.germanwings.com/" rel="nofollow">GermanWings</a></span><span class="col-md-4 col-xs-6 airnumber">	       870-252-1250</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.gexx.de/" rel="nofollow">Germania Express</a></span><span class="col-md-4 col-xs-6 airnumber">		       805-737-100</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.grandaire.com/" rel="nofollow">Gran Aire</a></span><span class="col-md-4 col-xs-6 airnumber">         800-704-7263</span></li>
+			             
+			            </ul>
+            			</div>
+					</div>
+			
+		            <div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+				    	<div class="col-xs-12 no-padding">
+					 	<ul>
+			            	<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.greatlakesav.com/" rel="nofollow">Great Lakes Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">	  800-554-5111</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.gulfair.com/" rel="nofollow">Gulf Air</a></span><span class="col-md-5 col-xs-6 airnumber">                    888-359-4853</span></li>
+			                <!-- li class="col-xs-12"><span class="col-xs-6 no-padding">Gulfstream Intl Airlines</span><span class="col-md-5 col-xs-6 airnumber">  800-688-7225</span></li -->
+						</ul>
+		            	</div>		            
+		        	</div>
+	
+					<div class="col-xs-12"><a id="h"></a><span class="intro col-xs-12">H</span></div>
+		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+		    			<div class="col-xs-12 no-padding">
+						 <ul>        	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.hawaiianair.com" rel="nofollow">Hawaiian Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">800-367-5320</span></li>
+			             </ul>
+			             </div>
+			        </div>
+        			<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+		    			<div class="col-xs-12 no-padding">
+			 			<ul>
+            				<!--li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.hootersair.com/" rel="nofollow">Hooters Air</a></span><span class="col-md-5 col-xs-6 airnumber">888-359-4668</span></li--> </ul> 
+            			</div>            
+        			</div>
+		
+					<div class="col-xs-12"><a id="i"></a><span class="intro col-xs-12">I</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>        	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.iberia.com" rel="nofollow">Iberia</a></span><span class="col-md-4 col-xs-6 airnumber">	     800-772-4642</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.icelandair.com/" rel="nofollow">Icelandair</a></span><span class="col-md-4 col-xs-6 airnumber">	 800-223-5500</span></li>
+			            </ul>
+			            </div>
+			        </div>
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						 <ul>
+			            	<!-- li class="col-xs-12"><span class="col-xs-6 no-padding">Indian Airlines</span><span class="col-md-5 col-xs-6 airnumber">800-180-1407</span></li -->	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.islandair.com/" rel="nofollow">Island Air</a></span><span class="col-md-5 col-xs-6 airnumber">             800-323-3345</span></li></ul>
+			            </div>		             
+		        	</div>
+	
+					<div class="col-xs-12"><a id="j"></a><span class="intro col-xs-12">J</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						 <ul>        	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.ar.jal.com/" rel="nofollow">Japan Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">	     800-525-3663</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.jetairways.com/" rel="nofollow">Jet Airways (India)</a></span><span class="col-md-4 col-xs-6 airnumber"> 866-835-9538</span></li>
+			             </ul>
+			             </div>
+			        </div>
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						 <ul>
+			            	<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.jetexpress.com/" rel="nofollow">Jet Express</a></span><span class="col-md-5 col-xs-6 airnumber">	800-806-8833</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.jetblue.com/" rel="nofollow">JetBlue Airways</a></span><span class="col-md-5 col-xs-6 airnumber">      800-538-2583</span></li></ul>
+			            </div>           
+        			</div>
+		
+					<div class="col-xs-12"><a id="k"></a><span class="intro col-xs-12">K</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>       	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.kenmoreair.com/" rel="nofollow">Kenmore Air</a></span><span class="col-md-4 col-xs-6 airnumber">	    800-543-9595</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.kenya-airways.com/" rel="nofollow">Kenya Airways</a></span><span class="col-md-4 col-xs-6 airnumber">	866-536-9224</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.klm.com/home/nl/nl?" rel="nofollow">KLM</a></span><span class="col-md-4 col-xs-6 airnumber">                800-1800-044</span></li>
+						</ul>
+						</div>
+             		</div>
+            
+           			<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>
+			            	<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.koreanair.com/" rel="nofollow">Korean Air</a></span><span class="col-md-5 col-xs-6 airnumber">	           800-438-5000</span></li>
+			                <!-- li class="col-xs-12"><span class="col-xs-6 no-padding">Kulula Airlines</span><span class="col-md-5 col-xs-6 airnumber"> 086-158-5852</span></li -->
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="https://www.kuwaitairways.com/en" rel="nofollow">Kuwait Airways</a></span><span class="col-md-5 col-xs-6 airnumber">	   800-458-9248</span></li></ul>
+			            </div>           
+        			</div>
+		
+					<div class="col-xs-12"><a id="l"></a><span class="intro col-xs-12">L</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+						<div class="col-xs-12 no-padding">
+						<ul>       	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.lan.com/" rel="nofollow">Lan Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">	           866-435-9526</span></li>
+			                <!--li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.laudaair.com/" rel="nofollow">Lauda Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">	   082-032-0321</span></li-->
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.lufthansa-usa.com/" rel="nofollow">Lufthansa</a></span><span class="col-md-4 col-xs-6 airnumber">	   800-645-3880</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.lynxair.com/" rel="nofollow">Lynx Air International</a></span><span class="col-md-4 col-xs-6 airnumber">   888-596-9247</span></li>
+						</ul>
+				        </div>
+				    </div>
+            		<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+		    			<div class="col-xs-12 no-padding">
+						 <ul>
+			            	<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.lot.com/" rel="nofollow">LOT Polish Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">	           800-223-0593</span></li>
+			                <!-- li class="col-xs-12"><span class="col-xs-6 no-padding">LTU International</span><span class="col-md-5 col-xs-6 airnumber">	               866-266-5588</span></li -->
+			                <!-- li class="col-xs-12"><span class="col-xs-6 no-padding">Lloyd Aereo Boliviano</span><span class="col-md-5 col-xs-6 airnumber">	800-327-3098</span></li-->
+			            </ul>
+			            </div>            
+        			</div>
+		
+					<div class="col-xs-12"><a id="m"></a><span class="intro col-xs-12">M</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>        	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.malaysiaairlines.com/my/en.html" rel="nofollow">Malaysia Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">	 800-552-9264</span></li>
+			                <!--li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.malev.hu/" rel="nofollow">Malev Hungarian</a></span><span class="col-md-4 col-xs-6 airnumber">	             800-223-6884</span></li-->
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.martinair.com/" rel="nofollow">Martinair Holland</a></span><span class="col-md-4 col-xs-6 airnumber">		 800-627-8462</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.mesa-air.com" rel="nofollow">Mesa Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">              800-637-2247</span></li>
+			                <!--li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.mesaba.com/" rel="nofollow">Mesaba Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">                 651-367-5000</span></li-->
+			            </ul>
+			            </div>
+			        </div>
+		            <div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>
+			            	<!-- li class="col-xs-12"><span class="col-xs-6 no-padding">Mexicana</span><span class="col-md-5 col-xs-6 airnumber">	                800-531-7921</span></li-->
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.mea.com.lb/" rel="nofollow">Middle East</a></span><span class="col-md-5 col-xs-6 airnumber">	            611-629-999</span></li>
+			                <!--li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.midwestairlines.com" rel="nofollow">Midwest Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">	800-452-2022</span></li-->	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.flymonarch.com" rel="nofollow">Monarch Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">        870-040-5040</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.miat.com/" rel="nofollow">Mongolian Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">               761-128-4103</span></li>
+			            </ul>
+			            </div>		            
+		        	</div>
+		
+					<div class="col-xs-12"><a id="n"></a><span class="intro col-xs-12">N</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>        	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.nantucketairlines.com/" rel="nofollow">Nantucket Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">800-635-8787</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.natureair.com/" rel="nofollow">Nature Air</a></span><span class="col-md-4 col-xs-6 airnumber">	              800-235-9272</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.block-island.com/nea/" rel="nofollow">New England Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">      800-243-2460</span></li>
+			            </ul>
+			            </div>
+			        </div>
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+		    			<div class="col-xs-12 no-padding">
+						<ul>
+			            	<!--li class="col-xs-12"><span class="col-xs-6 no-padding">North American Airlines</span><span class="col-md-5 col-xs-6 airnumber">800-359-6222</span></li-->	
+			                <!--li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.nwa.com/" rel="nofollow">Northwest Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">	    800-225-2525</span></li-->
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.norwegian.no/" rel="nofollow">Norwegian Air Shuttle</a></span><span class="col-md-5 col-xs-6 airnumber">478-152-1815</span></li>
+			            </ul>	
+			            </div>            
+        			</div>
+				
+					<div class="col-xs-12"><a id="o"></a><span class="intro col-xs-12">O</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>        	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.olympicair.com/" rel="nofollow">Olympic Air</a></span><span class="col-md-4 col-xs-6 airnumber">210-966-6666</span></li>
+			            </ul>
+			            </div>			            
+			        </div>
+		
+					<div class="col-xs-12"><a id="p"></a><span class="intro col-xs-12">P</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>        	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.pacificcoastal.com" rel="nofollow">Pacific Coastal Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">800-663-2872</span></li>	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.piac.com.pk/" rel="nofollow">Pakistan Intl Airline</a></span><span class="col-md-4 col-xs-6 airnumber">	        800-221-2552</span></li>
+			                <!--li class="col-xs-12"><span class="col-xs-6 no-padding">Pan Am</span><span class="col-md-4 col-xs-6 airnumber">800-359-7262</span></li-->
+			            </ul>
+			            </div>
+            		</div>
+            		<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+		    			<div class="col-xs-12 no-padding">
+						<ul>
+			            	<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.penair.com/" rel="nofollow">Penair</a></span><span class="col-md-5 col-xs-6 airnumber">	                          800-448-4226</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.philippineairlines.com/" rel="nofollow">Philippine Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">	800-747-1959</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.polynesianairlines.com/" rel="nofollow">Polynesian Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">	684-699-9126</span></li>
+			            </ul>
+			            </div>         
+        			</div>
+		
+					<div class="col-xs-12"><a id="q"></a><span class="intro col-xs-12">Q</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>        	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.qantas.com.au/" rel="nofollow">Qantas Airways</a></span><span class="col-md-4 col-xs-6 airnumber">800-227-4500</span></li>
+			            </ul>
+			            </div>			            
+			        </div>
+		
+					<div class="col-xs-12"><a id="r"></a><span class="intro col-xs-12">R</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>      	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.royalairmaroc.com/" rel="nofollow">Royal Air Maroc</a></span><span class="col-md-4 col-xs-6 airnumber">800-344-6726</span></li>	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.rj.com/en" rel="nofollow">Royal Jordanian Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">  800-223-0470</span></li>
+			            </ul>
+			            </div>
+			        </div>
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>
+			            	<!--li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.flyryan.com/" rel="nofollow">Ryan International Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">877-265-7400</span></li-->	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.ryanair.com/" rel="nofollow">Ryanair</a></span><span class="col-md-5 col-xs-6 airnumber">                        353-1-249-7745</span></li>
+			            </ul>
+			            </div>
+           
+        			</div>
+							
+					<div class="col-xs-12"><a id="s"></a><span class="intro col-xs-12">S</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>      	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.flysas.com" rel="nofollow">SAS Scandinavian Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">800-221-2350</span></li>	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.scenic.com/" rel="nofollow">Scenic Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">	     800-634-6801</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.silkair.com/" rel="nofollow">Silk Air</a></span><span class="col-md-4 col-xs-6 airnumber">		         800-224-4243</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.singaporeair.com/" rel="nofollow">Singapore Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">800-742-3333</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.flysolomons.com/" rel="nofollow">Solomon Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">	 800-677-4277</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.flysaa.com/us/en/home!loadHome.action?request_locale=en_US&splashLocale=EN&splashCntry=US&isCookieEnabled=false" rel="nofollow">South African</a></span><span class="col-md-4 col-xs-6 airnumber">                711-978-5313</span></li>
+			            </ul>
+			            </div>
+			        </div>
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>
+			            	<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.southwest.com/" rel="nofollow">Southwest Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">	   800-435-9792</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.spiritair.com/" rel="nofollow">Spirit Airline</a></span><span class="col-md-5 col-xs-6 airnumber">		   800-772-7117</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.srilankan.lk/" rel="nofollow">SriLankan</a></span><span class="col-md-5 col-xs-6 airnumber">               877-915-2652</span></li>
+			                 <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.suncountry.com/" rel="nofollow">Sun Country Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">	800-924-6184</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.slm.firm.sr/" rel="nofollow">Suriname Airways</a></span><span class="col-md-5 col-xs-6 airnumber">	       020-626-2697</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.swiss.com/" rel="nofollow">SWISS</a></span><span class="col-md-5 col-xs-6 airnumber">                          877-359-7947</span></li>
+			            </ul>
+			            </div>			            
+			        </div>
+		
+		
+					<div class="col-xs-12"><a id="t"></a><span class="intro col-xs-12">T</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>        	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.tam.com.br" rel="nofollow">TAM - Brazilian Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">	888-235-9826</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.flytap.com" rel="nofollow">TAP Air Portugal</a></span><span class="col-md-4 col-xs-6 airnumber">	        800-221-7370</span></li>
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.tarom.ro/" rel="nofollow">Tarom Romanian Air Transport</a></span><span class="col-md-4 col-xs-6 airnumber">	021-317-4444</span></li>	
+			                <!--li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.flyted.com/" rel="nofollow">Ted Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">                   800-225-5833</span></li-->
+			            </ul>
+			            </div>
+			        </div>
+            
+		            <div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+				    	<div class="col-xs-12 no-padding">
+					 	<ul>
+		            		<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.thaiair.com/" rel="nofollow">Thai Air</a></span><span class="col-md-5 col-xs-6 airnumber">	                 800-426-5204</span></li>
+		                	<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.transavia.com/en-EU/home/" rel="nofollow">Transavia Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">	 46-8505-22255</span></li>
+		                	<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.tropicair.com/" rel="nofollow">Tropic Air</a></span><span class="col-md-5 col-xs-6 airnumber">               800-422-3435</span></li>
+		                 	<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.thy.com" rel="nofollow">Turkish Airlines</a></span><span class="col-md-5 col-xs-6 airnumber">                   800-874-8875</span></li>
+						 </ul>
+		            	</div>		            
+		        	</div>
+		
+					<div class="col-xs-12"><a id="u"></a><span class="intro col-xs-12">U</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>        	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.ukraine-international.com/" rel="nofollow">Ukraine Intl Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">44-581-5050</span></li>	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.united.com/" rel="nofollow">United Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">                         800-538-2929</span></li>
+			            </ul>
+			            </div>
+			        </div>
+            
+					<div class="col-xs-12"><a id="v"></a><span class="intro col-xs-12">V</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>        	        	        	        	        	        	
+			                <!--li class="col-xs-12"><span class="col-xs-6 no-padding">Varig</span><span class="col-md-4 col-xs-6 airnumber"> 800-468-2744</span></li-->
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.virgin-atlantic.com/" rel="nofollow">Virgin Atlantic</a></span><span class="col-md-4 col-xs-6 airnumber">  800-821-5438</span></li>
+			            </ul>
+			            </div>
+			        </div>
+            
+            		<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>
+			            	<li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.virginblue.com.au/" rel="nofollow">Virgin Australia</a></span><span class="col-md-5 col-xs-6 airnumber">73-295-2296 </span></li>
+			           	</ul>
+			            </div>          
+        			</div>
+		
+					<div class="col-xs-12"><a id="w"></a><span class="intro col-xs-12">W</span></div>		
+					<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+					    <div class="col-xs-12 no-padding">
+						<ul>        	        	        	        	        	        	
+			                <li class="col-xs-12"><span class="col-xs-6 no-padding"><a target="_blank" href="//www.westjet.com/" rel="nofollow">WestJet Airlines</a></span><span class="col-md-4 col-xs-6 airnumber">800-538-5696</span></li>
+			            </ul>
+			            </div>
+			        </div>
+            
+            		<div class="contentAreaAirline col-xs-12 col-md-6 col-sm-6"> 
+		    			<div class="col-xs-12 no-padding">
+			 			<ul>
+            				<!--li class="col-xs-12"><span class="col-xs-6 no-padding">World Airways</span><span class="col-md-5 col-xs-6 airnumber">888-750-5834</span></li-->
+            			</ul>
+            			</div>            
+        			</div>
+				</div> <!-- Panel body end -->
+			</article>			
+		</div>
+	</div>
+	
+	
+		 							<!-- TRAVEL GUIDES -->
+		 							
+	<div id="tb-travelGuides">
+		<div class="tb-container">
+			<div class="row">
+				<div class="col-md-12">					
+					<h3>Travel Guide</h3>						
+				</div>		  
+			</div>
+			
+			<div class="row">
+				<div class="col-md-4">
+					<div class="tb-guide-wrapper">
+						<ul>
+							<li class="check"><a href="http://www.worldairportguides.com/" target="_blank">Airport Guides </a></li>
+							<li class="check"><a href="http://www.lonelyplanet.com/destinations" target="_blank">City Guides</a></li>
+							<li class="check"><a href="http://www.tripadvisor.com/TravelersChoice-Destinations" target="_blank">Destination Guides</a></li>
+							<li class="check"><a href="http://maps.google.com/" target="_blank">Driving Directions</a></li>
+						</ul>
+					</div>
+				</div>
+			
+				<div class="col-md-4">					
+					<div class="tb-guide-wrapper">
+						<ul>
+							<li class="check"><a href="http://www.flightstats.com/go/FlightStatus/flightStatusByFlight.do" target="_blank"> Flight Tracker</a></li>
+							<li class="check"><a href="https://travel.state.gov/content/passports/en/alertswarnings/worldwide-caution.html" target="_blank">Travel Warnings</a></li>
+							<li class="check"><a href="http://travel.state.gov/" target="_blank">Visa Passport</a></li>
+							<li class="check"><a href="http://www.infoplease.com/pages/unitconversion.html" target="_blank">Conversion Tables </a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">					
+					<div class="tb-guide-wrapper">
+						<ul>
+							<li class="check"><a href="http://finance.yahoo.com/currency-converter/" target="_blank">Currency Conversion</a></li>
+							<li class="check"><a href="http://www.internationalweather.net/" target="_blank">Weather</a></li>
+							<li class="check"><a href="http://www.timeanddate.com/worldclock//" target="_blank">World Time</a></li>
+							<li class="check"><a href="http://countrycallingcodes.com/" target="_blank">Dialing Codes</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!-- FOOTER -->
+
+	<footer id="tb-footer" role="contentinfo" >
+		<div class="tb-container" >
+			<div class="row row-p	b-md"  >
+
+				<div class="col-md-9">
+					<div class="tb-widget" >
+						<h3>About Us</h3>
+						<p>Our mission is to provide the ultimate travel planning experience, while becoming a one stop shop for every travel service available in the industry.
+						 From Private Jets, airline tickets, hotels, worldwide luxury resorts, cruises, trains to car rentals.
+						Travel Booth is specialized in providing personalized travel services to individuals and corporates all around the globe from past 11 yrs.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-push-1">
+					<div class="tb-widget">
+						<h3>Get In Touch</h3>
+						<ul class="tb-quick-contact">
+							<li><i class="icon-phone"></i> +1 408-333-9229</li>
+							<li><i class="icon-phone"></i> +1 408-219-2632</li>
+							<li><a href="#"><i class="icon-mail2"></i> ami@mytravelbooth.com</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row copyright">
+				<div class="col-md-12">
+					<p class="pull-left">
+						<small class="block">&copy; 2018 All Rights Reserved.</small> 
+						<small class="block">Designed by  XXX</small>
+					</p>
+					<ul class="tb-social-icons pull-right">
+						<li><a href="#"><i class="icon-twitter"></i></a></li>
+						<li><a target="_blank" href="https://www.facebook.com/AmiTravelBooth"><i class="icon-facebook"></i></a></li>
+						<li><a target="_blank" href="https://www.linkedin.com/in/ami-desai-4197b943"><i class="icon-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	
+	<!-- Datepicker -->
+	<script src="js/bootstrap-datepicker.min.js"></script>
+	
+
+	<!-- Main -->
+	<script src="js/main.js"></script>
+	<script>
+function openCity(evt, bagName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+  }
+  document.getElementById(bagName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-border-red";
+}
+</script>
+	
+	</body>
+</html>
+
